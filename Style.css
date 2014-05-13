@@ -1,0 +1,278 @@
+@font-face {font-family: Facebolf;	src: url(fonts/Facebolf.otf);}
+@font-face {font-family: TitilliumWeb-Regular;	src: url(fonts/TitilliumWeb-Regular.ttf);}
+@font-face {font-family: TitilliumWeb-ExtraLight;	src: url(fonts/TitilliumWeb-ExtraLight.ttf);}
+@font-face {font-family: TitilliumWeb-Bold;	src: url(fonts/TitilliumWeb-Bold.ttf);}
+
+
+body{
+	background-color: white;
+	font-family: 'TitilliumWeb-Regular', Arial, Verdana, Helvetica;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 100%;
+	padding: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+/* ------------------------------------ OPPSIDE ---------------------------------------*/
+
+#upside { width: 100%; height: 100%; margin: 0; padding: 0;  text-align: center; display: none;} /*<-- remove display:none; to see "Oppsiden" */
+#horizontalborder { width:100%; height:3em; background: url(img/oppsideborder.gif); 
+-moz-box-shadow: inset 0 0 2em 0 #888; -webkit-box-shadow: inset 0 0 2em 0 #888; box-shadow: inset 0 0 2em 0 #888;}​
+
+/* ------------------------------------ MAIN CONTENT ---------------------------------------*/
+
+#maincontent {
+	width: 100%;
+	height: 100%;
+	margin: 0; padding: 0;
+}
+
+/* ------------------------------------ GLOBAL MENU ---------------------------------------*/
+
+#global {
+	width: 100%;
+	height: 9em;
+	margin-bottom: 2.5em;
+	vertical-align: top;
+}
+
+#logo {
+	width: 20%; 
+	height: 100%;
+	float: left;
+	padding-left: 3%;
+	margin-top: 0; padding-top: 0;
+}
+
+#logo img, object {
+	padding: 0; margin: 0; float: left; 
+}
+
+#upsideLink, #upsideLink_hidden {
+	width: 65%;
+	float: right;
+	text-align: right;
+	font-size: 1em;
+	padding-right: 3em;
+	padding-top: 1em;
+	font-family: 'TitilliumWeb-ExtraLight', Helvetica;
+}
+
+
+#menu, #menu_hidden {
+	width: 65%;
+	padding-top: 2em;
+	font-size: 1.2em;
+	float: right;
+	text-align: right;
+	padding-right: 3em;
+	font-family: 'TitilliumWeb-Bold', Helvetica;
+}
+
+#menu_hidden, #upsideLink_hidden { display: none; }
+.nav li { display: inline-block; list-style: none; list-style-type: none; max-width: 100%;}
+.nav li a { text-decoration: none; color: black; }
+#menu li + li:before{ content: " | "; padding: 0 0.75em; font-family: 'TitilliumWeb-ExtraLight', Helvetica;}
+#menu a:hover {border-top: 3px solid #D20A11; }
+#upsideLink li{padding-left: 1.5em;}
+.icon { height: 1em;}
+.chosenlang {color: #D20A11;}
+
+/* ----------------------------------- BELOW ---------------------------------------*/
+
+
+#wrapper {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.coloredarea {width: 100%; height: 25em; vertical-align: middle; text-align: center; }
+.coloredarea h1 {
+	font-family: 'TitilliumWeb-Bold', Helvetica;
+	font-size: 4em;
+	padding-top: 1.5em;
+	text-align: center;
+	display: inline-block; 
+}
+.coloredarea img, object {text-align: center; max-width: 100%; padding-top: 2%;	}
+
+#biggreything { background: #3C3C3B; padding-top: 3em; padding-bottom: 0;}
+#bigredvideothing{background: #D20A11;background: url(img/bilde.jpg) 50% 0 no-repeat fixed; color: #fff; background-size: cover;}
+
+.redlayer {
+    background-color: rgba(210, 10, 17, 0.9);
+    width: 100%;
+    height: 100%;
+}
+
+/*	NEWS: ;*/
+
+.textbox {
+	width: 20em;
+	font-family: 'TitilliumWeb-Regular', Verdana;
+	color: #3C3C3B;
+	font-size: 2em;
+	text-align: center;
+	margin: auto auto;
+}
+
+#boxes{	max-width: 100%; margin: 3%; }
+
+.box{
+	width: 22%;
+	min-height: 30em;
+	padding: 0;
+	margin: 1%;
+	background: white;
+	display: inline-block;
+	vertical-align: top;
+}
+.box:hover{	background: #E6E7E8;}
+.box h1   {	color: #3C3C3B; font-family: 'TitilliumWeb-Bold', Helvetica; font-size: 1.5em;  margin: 3%; line-height: 1.25em;}
+.box p 	  { color: #3C3C3B; font-family: 'TitilliumWeb-Regular', Helvetica; font-size: 1em; margin: 3%; line-height: 1.25em;}
+.box img  {	width: 100%;}
+.box hr   { width: 90%;  border: 1px solid; color: grey; display: block;}
+.box .mark{ color: #D20A11; font-family: 'TitilliumWeb-Regular', Helvetica; text-transform: uppercase; font-size: 0.8em;}
+
+.centered { width: 80%; margin: auto auto; text-align: center; font-family: 'TitilliumWeb-Regular', Helvetica; font-size: 1em;}
+.centered a {color: black; text-decoration: none; border: 1px solid #C0C0C0; padding: 1em; }
+.centered a:hover {background: #E6E7E8;}
+.centered img {margin: 4em;}
+
+
+/*		SOCIAL MEDIAS 	*/
+#socialwrapper {width: 100%; height: 100%;}
+#followus {
+	width: 20%;
+	height: 100%;
+	margin: 2%;
+	float: left;
+	display: block;
+	color: #3F3F3F;
+}
+
+#followus img{max-width: 100%;}
+#followus h1 {font-size: 2em; color: #111; font-family: 'TitilliumWeb-Bold', Helvetica; text-transform: uppercase;}
+
+#socialfeed {
+	width: 72%;
+	height: 100%;
+	margin: 0;
+	padding: 2%;
+	float: right;
+	display: block;
+}
+
+.feedpost {
+	width: 28%;
+	height: 100%;
+	background: white;
+	border: 1px solid gray;
+	margin: 1.5%;
+	display: inline-block;
+	vertical-align: top;
+}
+.feedpost:hover{	background: #E6E7E8;}
+#upside .feedpost {width: 18%;}
+
+.feedpost p 	{ font-size: 1em; color: #2D2D2D; padding: 0 2% 0 2%; font-family: 'TitilliumWeb-Bold', Verdana;}
+.feedpost h3 	{ font-size: 0.75em; color: #9E9E9E; padding: 2%; line-height: 1em; margin: 0;}
+.feedpost hr 	{ width: 100%; height: 1px; margin: 0; background: gray; border: 0; }
+.feedpost img   { max-width: 100%; margin: 0;}
+.feedpost a 	{ color: #D20A11; }
+.hashtags 		{ color: #D20A11; }
+.feedmeta 		{ color: #9E9E9E; font-size: 0.9em;}
+.socialicon 	{ float: right;  width: 1.3em;}
+.author 		{ font-size: 0.9em; font-family: 'TitilliumWeb-Regular', Verdana; padding: 0;}
+
+
+/*		MAP 	*/
+#mapwrapper { width: 100%; min-height: 20%; }
+#map {	width: 100%; height: 100%; margin: 0; padding: 0; }
+#map iframe {
+	width: 100%;
+	height: 20em;
+	border: 0;
+	border-top: 1px solid grey;
+}
+#countries 	{ width: 100%; min-height: 5em; text-align: center; line-height: 1em;}
+.country,
+.chosencountry
+	{ width: 15%; min-height: 10em;  margin: 0; margin-left: 1%; margin-right: 1%;  display: inline-block; 
+				font-size: 1em; font-family: 'TitilliumWeb-Bold', Verdana; padding: 1.2em; vertical-align: top;}
+.maplink {color: #D20A11; text-decoration: none; font-size: 0.75em;}
+.chosencountry { background: #D20A11; color: white; }
+.chosencountry.maplink {display:none;}
+.country:hover { background: #EFEFEF; }
+.adress   { font-size: 0.8em; font-family: 'TitilliumWeb-Regular', Verdana; }
+
+
+/* -----------------------------------------MEDIA QUERIES ---------------------------------------------*/
+
+/* ------ MEDIUM ------ */
+@media screen and (max-width:940px){
+
+	#menu {margin-top: 1.5em; font-size: 1em;	}
+	#bigredvideothing{height:20em;}
+	#bigredvideothing h1 {font-size: 2.8em; max-width: 90%; margin: auto auto; }
+	.box {width: 45%; }
+	#followus {font-size: 0.8em;}
+	.feedpost {width: 45%;}
+	#upside .feedpost {width: 40%;}
+	.country, .chosencountry { width: 40%; min-height: 8em;}
+	.horizontalborder{ height: 2em; }
+
+
+/* ------ MENU CHANGE ----*/
+@media screen and (max-width: 800px){
+
+	#menu, #upsideLink { display: none; }
+	#menu_hidden, #upsideLink_hidden { display: inline-block; width: 30%; height: 2em; padding:0; margin: 0; float: right; padding-right: 1em; }
+	#menu_hidden {font-size: 1.2em; padding-top: 2.5em;}
+	#upsideLink_hidden { padding-top: 1.2em; }
+	#logo { width: 60%; height: 100%; }
+	.icon { height: 2.5em; }
+	#global {padding-bottom: 0.2em; }
+	.centered img {max-width: 50%; margin: 2%; }
+
+}
+
+
+/* ------ SMALL ------ */
+@media screen and (max-width: 710px){
+
+	.coloredarea{height:20em; }
+	.coloredarea h1 {font-size: 2.5em; }
+	.coloredarea img, object { max-width: 80%; }
+	.textbox {width: 90%; font-size: 1.3em; }
+	.box{width: 100%; min-height: 10em; padding-bottom: 2em;}
+	#followus {font-size: 0.8em; width: 100%; text-align: center; float: none; margin: auto auto;}
+	#followus hr,#followus p {display: none;}
+	#socialfeed {width: 90%; float: none; margin: auto auto;}
+	.feedpost {width: 90%; }
+	#upside .feedpost {width: 90%;}
+	.country, .chosencountry {width: 80%; min-height: 3.6em; float: none; }
+	.adress br, .maplink br {content:"  "; border:1px solid gray; margin-left: 0.8em; margin-right: 0.8em; font-size: 0.3em;}
+	.centered img {max-width: 70%; margin: 2%;  }
+	.centered {font-size: 0.9em; }
+	.horizontalborder{ height: 1em; }
+	.logo {padding-left: 1%;}
+}
+
+/* ------ EXTRA SMALL ------ */
+@media screen and (max-width: 470px){
+
+	.coloredarea{height:15em;	}
+	#bigredvideothing h1 { padding: 2%; margin-top: 25%; font-size: 1.8em;  }
+	#countries {width: 89%;}
+	#menu_hidden, #upsideLink_hidden {width: 30%;}
+	.icon { height: 1.8em; }
+	.centered img {max-width: 80%; margin: 2%;  }
+}
